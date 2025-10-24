@@ -35,7 +35,7 @@ function Products() {
         onClick={() => setShowCart(true)}
         className="button-shopping-cart"
       >
-        🛒
+        {"🛒 " + shoppingCart.length}
       </button>
       <ShoppingCart
         productsShoppingCart={shoppingCart}
